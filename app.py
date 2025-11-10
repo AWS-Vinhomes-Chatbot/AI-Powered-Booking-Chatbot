@@ -3,7 +3,7 @@ import os
 
 import aws_cdk as cdk
 
-from ai_powered booking chatbot.ai_powered booking chatbot_stack import AiPoweredBookingChatbotStack
+from ai_powered_booking_chatbot.ai_powered_booking_chatbot_stack import AiPoweredBookingChatbotStack
 
 
 app = cdk.App()
