@@ -13,7 +13,6 @@ class InfrastructureStack(Stack):
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
 
-        # === 1. TẠO VPC (TỐI ƯU CHI PHÍ) ===
         self.vpc = ec2.Vpc(
             self, "BookingChatbotVPC",
             max_azs=1, 
